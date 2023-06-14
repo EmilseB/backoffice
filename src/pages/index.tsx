@@ -18,6 +18,7 @@ import Precios from "@/components/Precios";
 import Categorias from "@/components/Categorias";
 import { Ventaminorista } from "@/components/VentaMinorista";
 import { VentaMayorista } from "@/components/VentaMayorista";
+import Ventas from "@/components/Ventas";
 
 const drawerWidth = 240;
 
@@ -41,7 +42,7 @@ export default function PermanentDrawerLeft() {
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
       <AppBar
-        position="fixed"
+        // position="fixed"
         sx={{ width: `calc(100% - ${drawerWidth}px)`, ml: `${drawerWidth}px` }}
       >
         <Toolbar>

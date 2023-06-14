@@ -19,7 +19,6 @@ const [categoria,setCategoria]=useState<CategoriaProps[]>([{categoria:'',__v:0,_
         setCategoria(res.data);
 
       })
-      .catch((err) => alert("hubo un error"))
     }
   
       useEffect(()=>(Categoria()),[]);

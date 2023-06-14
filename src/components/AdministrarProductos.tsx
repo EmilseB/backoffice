@@ -17,7 +17,7 @@ const [products,setProducts]=useState<newProduct[]>([])
         setProducts(res.data);
 
       })
-      .catch((err) => alert("hubo un error"))
+      
     }
   
       useEffect(()=>(Products()),[]);

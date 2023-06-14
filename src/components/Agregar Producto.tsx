@@ -61,7 +61,7 @@ export const AgregarProducto: FC = () => {
       .then((res) => {
         setCategoria(res.data);
       })
-      .catch((err) => alert("hubo un error"));
+      
   };
 
   const initialValues = {

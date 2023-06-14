@@ -17,7 +17,6 @@ export default function Precios() {
       .then((res) => {
         setCategoria(res.data);
       })
-      .catch((err) => alert("hubo un error"));
   };
 
   useEffect(() => Categoria(), []);
@@ -27,7 +26,6 @@ export default function Precios() {
       .then((res) => {
         setProducts(res.data);
       })
-      .catch((err) => alert("hubo un error"));
   };
 
   useEffect(() => Products(), []);
@@ -37,7 +35,6 @@ export default function Precios() {
     .then((res)=>{
       // setProducts()
     })
-    .catch((err)=> alert("hubo un error"))
   }
 
   return (
